@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 25px; 
+    color: white;  
+}
+
+.game {
+    color: rgb(255, 0, 0);
+    width: 1050px;
+    height: 550px;
+    margin: 25px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 48);
+    border-radius: 50px;
+    gap: 10px;
+}
+
+
+
+.playScreen {
+    border-radius: 100px;
+    border: solid rgb(255, 255, 255) 1px;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+}
+
+.player.pedra {
+    background: url(/images/pedra.png);
+}
+
+.player.tesoura {
+    background: url(/images/tesoura.png);
+}
+
+.player.papel {
+    background: url(/images/papel.png);
+}
+
+.computer.pedra {
+    background: url(/images/pedra.png);
+}
+
+.computer.tesoura {
+    background: url(/images/tesoura.png);
+}
+
+.computer.papel {
+    background: url(/images/papel.png);
+}
+
+.playScreen p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+/* Escolhas do jogador */
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+h4.empate {
+    color:yellow;
+}
+
+h4.win {
+    color:green;
+}
+
+h4.lose {
+    color: red;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.choice {
+    width: 1100px;
+    height: 200px;
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.choiceObjects {
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.rock {
+    background: url(/images/pedra.png);
+    background-size: 100%;
+}
+
+.scissors {
+    background: url(/images/tesoura.png);
+    background-size: 100%;
+}
+
+.paper {
+    background: url(/images/papel.png);
+    background-size: 100%;
+}
